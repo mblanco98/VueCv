@@ -29,8 +29,9 @@ export const profile = {
   image:
     'https://res.cloudinary.com/practicaldev/image/fetch/s--7c7gUWWc--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/174633/2650a2d6-0a3e-4fa0-8131-e341502b31ba.png',
   overview: `
-      I'm a Front End Developer currently looking for a new project as a Front End Developer or Fullstack Developer (w/ JamStack).
-      I'm focused on UX/UI development, I love Vue.js and I'm a CSS nerd. I am a fan of technology, design, and coffee. I sometimes share what I know on dev.to
+      I'm a <b>Senior Front End Developer</b>, specialized in Javascript with <b>over 5 years of experience</b>.
+      I love <b>user-first UI/UX development</b>, <b>React</b>, <b>Vue</b> and I'm a CSS nerd.
+      I am a fan of IOT, design, and coffee. I sometimes share what I know on dev.to
     `,
 };
 
@@ -55,27 +56,38 @@ export const education = [
   },
 ];
 
-/*
-
-{
-  company: 'none',
-  title: 'Front End <span class="font-weight-light">Side Project</span>',
-  years: '2018',
-  tags: ['React (Context-API)','React','Javascript'],
-  description: `A Little Book Store created in order to get a better understanding of the use of React Context API`,
-}
-
-*/
-
 // tslint:disable:max-line-length
 export const experience = [
   {
-    company: 'Drum Machine',
+    company: 'Edgeuno S.A.S',
     logo: '',
-    title: 'Front End <span class="font-weight-light"> Project</span>',
-    years: '2018',
-    tags: ['React', 'Javascript'],
-    description: `Drum Machine created with Reactjs in Codepen, the hardest part was finding out that I can have on cache multiple things avoiding the unncesary re-download of assets by the user. <br> You can view it here <a rel="noreferrer noopener" href="https://codepen.io/manAbl/full/QxOMPJ/"> Drum Machine </a>`,
+    title: 'Front End Developer - Fulltime (Remote)',
+    years: '1 year - Current',
+    tags: ['React', 'Javascript', 'Microfrontends', 'Python'],
+    description: `I started as a Front End Developer, and as I got more responsabilities, I started doing more full-stack development for internal products of the company.`,
+  },
+  {
+    company: 'Infrapedia Inc (ORG)',
+    logo: '',
+    title: 'Lead Front End Developer - Fulltime (Remote)',
+    years: '2 years',
+    tags: ['Vue', 'Vuex', 'Javascript', 'REST', 'MapboxGL'],
+    description: `
+      They hired me as the <b>Lead Front End Developer</b> for this open source project.
+      I worked a lot with MapboxGL and refined my skills in delivering really responsive apps, since there was a lot of information to display, and a really small window to show it all without removing the map, which was the strong point of the app.
+      This was my first encounter with a remote job, we had our PM based on Germany, and the owner of the project in the US.
+      <br>
+      <br>
+      Infrapedia is an open source project available on Github, with the most complete, versatile-interactive infrastructure map of the Internet. It allows engineers, carriers, data center operators, business development executives and other stakeholders to navigate the Internet’s collection of networks and data centers.
+    `,
+  },
+  {
+    company: 'Agrimanager S.A.S',
+    logo: '',
+    title: 'Jr. Front End Developer - Fulltime (Medellin)',
+    years: '2 years',
+    tags: ['Vue', 'Vuex', 'Javascript', 'REST', 'MapboxGL', 'Nuxtjs'],
+    description: `With more than 12 modules that included: maps, data visualization, downloadable reports based on dynamic user data, various CRUDs and really complex state management with Vuex (Vue version of Redux) this was a complete challenge for me and one that really teach me a lot about software development and high-end development practices and code design patterns as well.`,
   },
 ];
 
@@ -95,13 +107,6 @@ export const stack = [
         title: 'Vue',
         skill: 0,
         target: 100,
-      },
-      {
-        avatar:
-          'https://cdn-images-1.medium.com/max/1187/1*JsyV8lXMuTbRVLQ2FPYWAg.png',
-        title: 'Typescript',
-        skill: 0,
-        target: 90,
       },
       {
         avatar: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
