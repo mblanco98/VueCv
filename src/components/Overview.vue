@@ -24,7 +24,7 @@ export default class extends Vue {
                 <fa-icon :icon="['fas', 'file-download']" size="lg"></fa-icon>
                 <span class="ml-2">Download</span> 
             </v-btn>
-            <a ref="downloadBtn" href="/Daniel.Ormeno.2018.pdf" download="Daniel.Ormeno.2018.pdf" hidden></a>
+            <a ref="downloadBtn" href="/Manuel.Blanco2023.pdf" download="Manuel.Blanco2023.pdf" hidden></a>
         </v-flex>
     </v-layout>
     <v-card>
